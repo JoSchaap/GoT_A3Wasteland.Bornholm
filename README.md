@@ -1,4 +1,4 @@
-*Wasteland.Stratis* by Team Wasteland!
+*Wasteland.Bornholm* by Team Wasteland (Bonholm port: JoSchaap)!
 ===================
 
 ArmA 3 Wasteland is a harsh survival sandbox mission where 2 teams and independent players fight for survival.

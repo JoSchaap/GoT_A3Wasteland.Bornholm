@@ -13,8 +13,15 @@ player createDiarySubject ["credits", "Credits"];
 
 player createDiaryRecord ["changelog",
 [
-"GoT",
+"GoT/Bornholm",
 "
+<br/> *Welcome to Bornholm! (ported by JoSchaap)
+<br/> *known issues/todo:
+<br/>  - Convoy missions/routes
+<br/>  - Coastal missions getting stuck
+<br/>  - store placement/alignment
+<br/>  - Some missionmarkers in wierd spots
+<br/>
 <br/> [Added] Holland Vehicle skin
 <br/> [Added] Multiplying money-reward for loyal players
 <br/> [Added] R.I.P. Marker on corpse location after respawn

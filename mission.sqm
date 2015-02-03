@@ -125,8 +125,8 @@ class Mission
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="GoT A3Wasteland Stratis v1.1"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
-		overviewText="The GoT-Edition of the wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
+		briefingName="GoT A3Wasteland Bornholm v1.1"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
+		overviewText="The GoT (Bornholm) Edition of the wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
 		startWeather=0;
@@ -1791,8 +1791,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3042.6316,3.3499999,5993.1196};
-					azimut=271.02887;
+					position[]={11264.508,93.546783,11786.841};
+					azimut=366.57712;
 					id=145;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1811,8 +1811,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6571.1099,48.722462,5049.4033};
-					azimut=-59.177204;
+					position[]={9545.0547,85.198334,5585.9014};
+					azimut=-174.17993;
 					id=146;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1831,8 +1831,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={1998.2252,2.8500669,2717.8875};
-					azimut=-3.4249926;
+					position[]={2605.5776,62.749203,17050.953};
+					azimut=-152.08333;
 					id=147;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1851,7 +1851,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2853.3835,45.226212,3692.2544};
+					position[]={1681.0452,18.531267,7579.748};
 					azimut=4.8233585;
 					id=148;
 					side="LOGIC";
@@ -1871,8 +1871,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={4483.6362,104.81519,6804.4697};
-					azimut=142.42555;
+					position[]={17182.998,11.249218,5102.8169};
+					azimut=168.99345;
 					id=149;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1891,8 +1891,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2766.2793,144.00775,1761.5057};
-					azimut=95.654556;
+					position[]={17596.691,23.635576,10207.124};
+					azimut=211.74471;
 					id=150;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1911,8 +1911,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2436.4253,73.928246,5692.6089};
-					azimut=30;
+					position[]={5214.0894,105.54173,12386.457};
+					azimut=148.10974;
 					id=151;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1931,8 +1931,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6533.6982,4.0881901,4937.7856};
-					azimut=190;
+					position[]={5212.2861,2.3763299,19177.307};
+					azimut=330.89203;
 					id=152;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1951,8 +1951,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={1932.3221,5.6672873,5727.2964};
-					azimut=-81.592133;
+					position[]={3083.5061,14.964397,5466.0933};
+					azimut=-150.47739;
 					id=153;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";
@@ -1971,8 +1971,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2167.9275,3.1938703,1887.3179};
-					azimut=246.98297;
+					position[]={18175.348,2.7812679,7981.1958};
+					azimut=317.2366;
 					id=154;
 					side="LOGIC";
 					vehicle="C_man_1_1_F";

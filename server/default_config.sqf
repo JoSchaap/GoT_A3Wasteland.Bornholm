@@ -58,8 +58,8 @@ A3W_vehicleMaxUnusedTime = 2*24;   // Maximum parking time in hours after which 
 A3W_serverSavingInterval = 1*60;   // Interval in seconds between automatic vehicle & object saves; should be kept at 1 min for profileNamespace and iniDB, while for extDB it can be relaxed to 3-5 mins
 
 // iniDB settings
-PDB_PlayerFileID = "GoT_A3W_";         // Player savefile prefix (if you run multiple servers, keep it the same for all of them)
-PDB_ObjectFileID = "GoT_A3W_";         // Object savefile prefix (if you run multiple servers, change it to a unique value for each server)
+PDB_PlayerFileID = "GoT_A3Wb_";         // Player savefile prefix (if you run multiple servers, keep it the same for all of them)
+PDB_ObjectFileID = "GoT_A3Wb_";         // Object savefile prefix (if you run multiple servers, change it to a unique value for each server)
 
 // extDB settings
 A3W_extDB_ServerID = 1;            // Server ID to use in the database for the particular server running off this config file; if you have multiple servers, they all need different IDs
@@ -72,7 +72,7 @@ A3W_extDB_Debug = 0;               // Log all queries to server RPT (0 = no, 1 =
 // Spawning settings
 A3W_serverSpawning = 1;            // Vehicle, object, and loot spawning (0 = no, 1 = yes)
 A3W_vehicleSpawning = 1;           // If serverSpawning = 1, spawn vehicles in towns (0 = no, 1 = yes)
-A3W_vehicleQuantity = 130;         // Approximate number of land vehicles to be spawned in towns
+A3W_vehicleQuantity = 300;         // Approximate number of land vehicles to be spawned in towns
 A3W_boatSpawning = 1;              // If serverSpawning = 1, spawn boats at marked areas near coasts (0 = no, 1 = yes)
 A3W_heliSpawning = 1;              // If serverSpawning = 1, spawn helicopters in some towns and airfields (0 = no, 1 = yes)
 A3W_planeSpawning = 1;             // If serverSpawning = 1, spawn planes at some airfields (0 = no, 1 = yes)
@@ -95,7 +95,7 @@ A3W_payrollAmount = 90;           // Amount of money rewarded per territory on e
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
 A3W_missionsDifficulty = 1;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
-A3W_missionsQuantity = 4;          // Number of missions running at the same time (0 to 6)
+A3W_missionsQuantity = 6;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 10*60;      // Time in seconds between Main Missions
