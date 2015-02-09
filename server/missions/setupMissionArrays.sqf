@@ -12,7 +12,7 @@ MainMissions =
 	// Mission filename, weight
 	["mission_ArmedDiversquad", 1],
 	// ["mission_Coastal_Convoy", 1],
-	// ["mission_Convoy", 1],
+	["mission_Convoy", 1],
 	["mission_HostileHeliFormation", 0.5],
 	["mission_APC", 1],
 	["mission_MBT", 1],
@@ -24,7 +24,7 @@ MainMissions =
 SideMissions =
 [
 	["mission_HostileHelicopter", 0.5],
-	// ["mission_MiniConvoy", 1],
+	["mission_MiniConvoy", 1],
 	["mission_SunkenSupplies", 1],
 	["mission_TownInvasion", 2],
 	//["mission_AirWreck", 1.5],
@@ -35,7 +35,7 @@ SideMissions =
 
 MoneyMissions =
 [
-	// ["mission_MoneyShipment", 1],
+	["mission_MoneyShipment", 1],
 	["mission_SunkenTreasure", 1]
 ];
 
