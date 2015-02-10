@@ -10,19 +10,19 @@
 // Name, Building Position, Desk Direction (or [Desk Direction, Front Offset]), Excluded Buttons
 storeOwnerConfig = compileFinal str
 [
-	["GenStore1", 1, 270, []],
-	["GenStore2", 1, 310, []],
-	["GenStore3", 1, 340, []],
+	["GenStore1", 2, [180, 0.5], []],
+	["GenStore2", 2, [35, 1.5], []],
+	["GenStore3", 0, [210, 1.0], []],
 
-	["GunStore1", 0, 5, []],
-	["GunStore2", 1, 130, []],
-	["GunStore3", 1, 85, []],
-	["GunStore4", 1, [30, 1.5], []],
+	["GunStore1", 4, [-210, -0.5], []],
+	["GunStore2", 23,[-40, -0.5], []],
+	["GunStore3", 8, [-40, -0.5], []],
+	["GunStore4", 8, [-90, -0.5], []],
 
 	// Buttons you can disable: "Land", "Armored", "Tanks", "Helicopters", "Boats", "Planes"
-	["VehStore1", 0, 195, ["Planes"]],
-	["VehStore2", 1, 285, ["Boats"]],
-	["VehStore3", 1, 245, ["Planes"]]
+	["VehStore1", 4, [45, -0.5], ["Planes"]],
+	["VehStore2", 0, [280, -0.5], ["Boats"]],
+	["VehStore3", 1, [200, 0.2], ["Planes"]]
 ];
 
 // Outfits for store owners
