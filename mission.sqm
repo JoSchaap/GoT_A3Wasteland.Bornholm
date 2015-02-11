@@ -93,8 +93,8 @@ class Mission
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="GoT A3Wasteland Bornholm v1.1";
-		overviewText="The GoT (Bornholm) Edition of the wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
+		briefingName="Bornholm A3Wasteland v1.1 (GoT/JoSchaap)";
+		overviewText="The (GoT/JoSchaap) Edition of the Bornholm wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
 		startWeather=0;
