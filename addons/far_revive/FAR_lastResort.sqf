@@ -19,10 +19,10 @@ if !(player getVariable ["performingDuty", false]) then
 			player setVariable ["performingDuty", true];
 			switch (true) do
 			{
-				case (_dice < 34): 	{ playSound3D [call currMissionDir + "client\sounds\lastresort2.wss", vehicle player, false, getPosASL player, 0.9, 1, 1000] };
+				case (_dice < 34): 	{ playSound3D [call currMissionDir + "client\sounds\lastresort2.wss", vehicle player, false, getPosASL player, 3, 1, 1000] };
 				case (_dice < 67): 	{ playSound3D [call currMissionDir + "client\sounds\lastresort3.wss", vehicle player, false, getPosASL player, 0.6, 1, 1000] };
 				default 			{ playSound3D [call currMissionDir + "client\sounds\lastresort.wss", vehicle player, false, getPosASL player, 0.7, 1, 1000] };
-			}
+			};
 
 			if (_hasSatchel) then
 			{
