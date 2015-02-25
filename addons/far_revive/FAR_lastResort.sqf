@@ -13,7 +13,7 @@ _shout = 	[									// ["filename", volume, bomb timer]
 				["lastresort", 0.7, 1.75],
 				["croods", 3, 1.8],
 				["yililili", 0.5, 1.9],
-				["didibutton", 1.5, 2.1],
+				["didibutton", 1.6, 2.2],
 				["diehard", 4, 2],
 				["scarface", 3, 2.1]
 			] call BIS_fnc_selectRandom;
