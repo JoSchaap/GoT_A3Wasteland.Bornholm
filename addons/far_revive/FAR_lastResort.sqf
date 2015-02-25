@@ -4,11 +4,10 @@
 //	@file Name: FAR_lastResort.sqf
 //	@file Author: AgentRev
 
-private ["_hasCharge", "_hasSatchel", "_mineType", "_pos", "_mine","_dice"];
+private ["_hasCharge", "_hasSatchel", "_mineType", "_pos", "_mine"];
 
 _hasCharge = "DemoCharge_Remote_Mag" in magazines player;
 _hasSatchel = "SatchelCharge_Remote_Mag" in magazines player;
-_dice = random 100;
 
 if !(player getVariable ["performingDuty", false]) then
 {
@@ -17,12 +16,7 @@ if !(player getVariable ["performingDuty", false]) then
 		if (["Perform your duty?", "", "Yes", "No"] call BIS_fnc_guiMessage) then
 		{
 			player setVariable ["performingDuty", true];
-			switch (true) do
-			{
-				case (_dice < 34): 	{ playSound3D [call currMissionDir + "client\sounds\lastresort2.wss", vehicle player, false, getPosASL player, 0.9, 1, 1000] };
-				case (_dice < 67): 	{ playSound3D [call currMissionDir + "client\sounds\lastresort3.wss", vehicle player, false, getPosASL player, 0.6, 1, 1000] };
-				default 			{ playSound3D [call currMissionDir + "client\sounds\lastresort.wss", vehicle player, false, getPosASL player, 0.7, 1, 1000] };
-			}
+			playSound3D [call currMissionDir + "client\sounds\lastresort.wss", vehicle player, false, getPosASL player, 0.7, 1, 1000];
 
 			if (_hasSatchel) then
 			{
